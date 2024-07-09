@@ -1,0 +1,28 @@
+import nltk
+from nltk.chat.util import Chat, reflections
+
+pairs = [
+    [
+        r"my name is (.*)",
+        ["Hello %1, How can I help you today with FL Studio?"]
+    ],
+    [
+        r"hi|hey|hello",
+        ["Hello", "Hey there"]
+    ],
+    [
+        r"what is FL Studio?",
+        ["FL Studio is a digital audio workstation (DAW) for Windows and macOS. It is used for music production, recording, mixing and mastering."]
+    ],
+    [
+        r"how to record a track in FL Studio?",
+        ["To record a track in FL Studio, you will need to connect your audio interface or microphone to your computer. Then, in FL Studio, go to the 'Options' menu, select 'Audio settings' and set the input and output devices. Once your recording device is set up, you can arm a track for recording by right-clicking on the desired track and selecting 'Record Arm'. You can then press the record button in the transport bar to start recording."]
+    ],
+    [
+        r"quit",
+        ["Bye bye take care. It was nice talking to you :) "]
+    ]
+]
+
+chatbot = Chat(pairs, reflections)
+chatbot.converse()

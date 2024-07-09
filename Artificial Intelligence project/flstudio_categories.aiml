@@ -1,0 +1,42 @@
+<aiml version="2.0">
+  <category>
+    <pattern>How do I record audio in FL Studio</pattern>
+    <template>
+        To record audio in FL Studio, first make sure your audio interface is connected and set up correctly in the audio settings. Next, create a new audio track by clicking on the "Audio" button in the channel rack. Once the track is created, press the "Record" button to start recording. Press the "Stop" button to finish recording. Your audio recording will now be available in the playlist for further editing.
+    </template>
+  </category>
+
+  <category>
+    <pattern>How do I use the piano roll in FL Studio</pattern>
+    <template>
+        The piano roll in FL Studio is used to create and edit MIDI notes. To open the piano roll, right-click on a channel and select "Piano roll" or press the "F7" key. In the piano roll, you can add notes by clicking on the grid or by using your computer keyboard to play notes in real-time. You can also edit the velocity, length, and pitch of individual notes. Additionally, you can use the piano roll to record and edit MIDI data from external controllers.
+    </template>
+  </category>
+
+  <category>
+    <pattern>How do I add a plugin to FL Studio</pattern>
+    <template>
+        To add a plugin to FL Studio, first make sure the plugin is installed on your computer. Next, open the "Plugin Manager" by clicking on "Options" in the main menu and selecting "Manage plugins". In the plugin manager, you can enable or disable plugins, as well as change their settings. To add a new plugin, click on the "Refresh" button and select the new plugin from the list. Click "OK" and the plugin will now be available to use in FL Studio.
+    </template>
+  </category>
+
+  <category>
+    <patternO>WHAT IS FL STUDI</pattern>
+    <template>FL Studio is a digital audio workstation and music production software developed by Belgian company Image-Line.</template>
+  </category>
+
+  <category>
+    <pattern>HOW TO USE FL STUDIO</pattern>
+    <template>FL Studio allows you to create, produce, and perform music using a range of tools, including virtual instruments, audio editing, and mixing capabilities. To get started, you can watch tutorials, read the manual, or take an online course to learn the basics of using FL Studio.</template>
+  </category>
+
+  <category>
+    <pattern>FL STUDIO FEATURES</pattern>
+    <template>FL Studio has a variety of features, including multi-track audio recording, sequencing, and mixing, a wide range of virtual instruments, advanced audio editing and manipulation capabilities, and support for multiple plugin formats. It also has a user-friendly interface, making it accessible for beginners and advanced users alike. </template>
+  </category>
+
+  <category>
+    <pattern>EXIT</pattern>
+    <template>#0$Goodbye!</template>
+  </category>
+</aiml>
